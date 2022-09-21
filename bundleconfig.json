@@ -1,24 +1,34 @@
-﻿// Configure bundling and minification for the project.
-// More info at https://go.microsoft.com/fwlink/?LinkId=808241
 [
   {
-    "outputFileName": "wwwroot/css/site.min.css",
-    // An array of relative input file paths. Globbing patterns supported
+    "outputFileName": "wwwroot/css/softwiz.min.css",
     "inputFiles": [
-      "wwwroot/css/site.css"
+      "wwwroot/css/font-awesome.min.css",
+      "wwwroot/css/elegant-icons.min.css",
+      "wwwroot/css/magnific-popup.min.css",
+      "wwwroot/css/nice-select.min.css",
+      "wwwroot/css/bootstrap.min.css",
+      "wwwroot/css/owl.carousel.min.css",
+      "wwwroot/css/slicknav.min.css",
+      "wwwroot/css/style.min.css"
     ]
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/js/softwiz.min.js",
     "inputFiles": [
-      "wwwroot/js/site.js"
+      "wwwroot/js/jquery-3.3.1.min.js",
+      "wwwroot/js/bootstrap.min.js",
+      "wwwroot/js/jquery.nice-select.min.js",
+      "wwwroot/js/jquery.nicescroll.min.js",
+      "wwwroot/js/jquery.magnific-popup.min.js",
+      "wwwroot/js/jquery.countdown.min.js",
+      "wwwroot/js/jquery.slicknav.min.js",
+      "wwwroot/js/mixitup.min.js",
+      "wwwroot/js/owl.carousel.min.js",
+      "wwwroot/js/main.min.js"
     ],
-    // Optionally specify minification options
     "minify": {
       "enabled": true,
       "renameLocals": true
-    },
-    // Optinally generate .map file
-    "sourceMap": false
+    }
   }
 ]

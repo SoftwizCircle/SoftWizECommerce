@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="bundleconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="bundleconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="HtmlTemplate\AdminPanel\.vscode\settings.json" />
   </ItemGroup>
 
@@ -14,9 +22,7 @@
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Pages\" />
-    <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\lib\bootstrap\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\css\" />
     <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
@@ -28,6 +34,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="bundleconfig.json" />
+    <None Include="wwwroot\img\owl.video.play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 

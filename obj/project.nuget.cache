@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3NWeWX0PYLO+4j5cYwxvPMl/X3pr/GGBhJboIjtSwpOGXQUElzQ62AMujQbP1gdt8yWLn47qfPMNpE9w5U4KmQ==",
+  "dgSpecHash": "Q5qE2O/G7tkrB9JMxcOpUFrwRdSnJDpHeIxTIZtXh9jDJV5lijC20zDwKbb8CnvzIloNWGwgOahnVqxCFaV+Xg==",
   "success": true,
   "projectFilePath": "C:\\TFS\\SoftwizGit\\SoftWizECommerce\\SoftWizECommerce.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\manish.kumar\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\manish.kumar\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\manish.kumar\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\manish.kumar\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
