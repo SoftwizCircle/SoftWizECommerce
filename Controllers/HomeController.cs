@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SoftWizDataAccess;
+using SoftWizDataAccess.Models;
 using SoftWizECommerce.Models;
 using System;
 using System.Collections.Generic;
@@ -9,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace SoftWizECommerce.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, SoftWizDatabaseContext context) : base(context)
         {
             _logger = logger;
         }
