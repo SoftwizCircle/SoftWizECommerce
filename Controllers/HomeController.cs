@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace SoftWizECommerce.Controllers
 {
-    public class HomeController : BaseController
+    public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger, SoftWizDatabaseContext context) : base(context)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }

@@ -123,8 +123,6 @@ C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\3_SoftWizECommerce.csproj.Co
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\3_SoftWizECommerce.RazorAssemblyInfo.cache
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\3_SoftWizECommerce.RazorAssemblyInfo.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\3_SoftWizECommerce.RazorCoreGenerate.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -166,3 +164,8 @@ C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\ref\SoftWizECommerce.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.pdb
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizDataAccess.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizDataAccess.pdb
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizHelpers.dll
+C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizHelpers.pdb

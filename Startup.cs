@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SoftWizBusinessLogic.Interfaces;
+using SoftWizBusinessLogic.Services;
 using SoftWizDataAccess;
 using SoftWizDataAccess.Models;
 using System;
@@ -28,6 +30,7 @@ namespace SoftWizECommerce
         {
             services.AddControllersWithViews();
             services.AddDbContext<SoftWizDatabaseContext>(options => options.UseSqlServer(Configuration.GetValue<string>("SoftWizConfig:DBConnectionString")));
+            services.AddTransient<IAccountService, AccountService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -9,10 +9,6 @@ namespace SoftWizECommerce.Controllers
 {
     public class BaseController : Controller
     {
-        protected readonly SoftWizDatabaseContext _context;
-        protected BaseController(SoftWizDatabaseContext context)
-        {
-            _context = context;
-        }
+        
     }
 }

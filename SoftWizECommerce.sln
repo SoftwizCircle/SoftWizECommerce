@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_SoftWizECommerce", "3_SoftWizECommerce.csproj", "{F02AC544-17E8-48B0-9FC5-466C98BB64F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_SoftWizECommerce", "4_SoftWizECommerce.csproj", "{F02AC544-17E8-48B0-9FC5-466C98BB64F2}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "1_SoftWizDatabase", "..\SoftWizDatabase\1_SoftWizDatabase.sqlproj", "{AF631437-92ED-41F8-B8CF-351B8D6C8B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_SoftWizDataAccess", "..\SoftWizDataAccess\2_SoftWizDataAccess.csproj", "{F46C37E4-65CB-4C5C-819B-AED369078B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_SoftWizDataAccess", "..\SoftWizDataAccess\2_SoftWizDataAccess.csproj", "{F46C37E4-65CB-4C5C-819B-AED369078B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_SoftWizHelpers", "..\SoftWizHelpers\5_SoftWizHelpers.csproj", "{7E0BA6AF-AFD4-40CD-B856-657BFE0EF409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_SoftWizBusinessLogic", "..\SoftWizBusinessLogic\3_SoftWizBusinessLogic.csproj", "{B862A6B3-0BC9-4241-B6EC-E4A255EA9899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{F46C37E4-65CB-4C5C-819B-AED369078B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F46C37E4-65CB-4C5C-819B-AED369078B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F46C37E4-65CB-4C5C-819B-AED369078B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0BA6AF-AFD4-40CD-B856-657BFE0EF409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0BA6AF-AFD4-40CD-B856-657BFE0EF409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0BA6AF-AFD4-40CD-B856-657BFE0EF409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0BA6AF-AFD4-40CD-B856-657BFE0EF409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B862A6B3-0BC9-4241-B6EC-E4A255EA9899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B862A6B3-0BC9-4241-B6EC-E4A255EA9899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B862A6B3-0BC9-4241-B6EC-E4A255EA9899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B862A6B3-0BC9-4241-B6EC-E4A255EA9899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
