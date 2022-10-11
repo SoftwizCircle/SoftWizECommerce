@@ -30,5 +30,23 @@
       "enabled": true,
       "renameLocals": true
     }
+  },
+  {
+    "outputFileName": "wwwroot/js/softwiz.register.min.js",
+    "inputFiles": [
+      "wwwroot/assets/vendors/js/vendor.bundle.base.js",
+      "wwwroot/assets/vendors/js/vendor.bundle.addons.js",
+      "wwwroot/assets/js/shared/off-canvas.js",
+      "wwwroot/assets/js/shared/misc.js",
+      "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "wwwroot/lib/jquery-unobtrusive-ajax/jquery.unobtrusive-ajax.min.js",
+      "wwwroot/js/toastr.min.js",
+      "wwwroot/js/swc.ecommerce.min.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
   }
 ]

@@ -180,3 +180,4 @@ C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\ref\SoftWizECommerce.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.pdb
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.genruntimeconfig.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs

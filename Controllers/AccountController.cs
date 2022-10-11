@@ -23,6 +23,11 @@ namespace SoftWizECommerce.Controllers
             return View();
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         [AcceptVerbs("GET", "POST")]
         public IActionResult VerifyEmail(string email)
         {

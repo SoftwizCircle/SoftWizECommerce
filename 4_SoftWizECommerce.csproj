@@ -37,6 +37,8 @@
   <ItemGroup>
     <None Include="bundleconfig.json" />
     <None Include="wwwroot\img\owl.video.play.png" />
+    <None Include="wwwroot\lib\jquery-unobtrusive-ajax\jquery.unobtrusive-ajax.js" />
+    <None Include="wwwroot\lib\jquery-unobtrusive-ajax\jquery.unobtrusive-ajax.min.js" />
   </ItemGroup>
 
   <ItemGroup>
