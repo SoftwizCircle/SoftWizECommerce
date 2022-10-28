@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using SoftWizBusinessLogic.DTOs;
 using SoftWizBusinessLogic.Interfaces;
 using SoftWizDataAccess.Models;
+using SoftWizECommerce.AuthService;
 using SoftWizECommerce.Models;
 using System;
 using System.Collections.Generic;
@@ -13,11 +16,16 @@ namespace SoftWizECommerce.Controllers
     public class AccountController : Controller
     {
         private IAccountService _accountService { get; set; }
-        public AccountController(IAccountService accountService)
+        private ITokenService _tokenService { get; set; }
+        private IConfiguration _configuration { get; set; }
+
+        public AccountController(IAccountService accountservice, ITokenService tokenservice, IConfiguration configuration)
         {
-            _accountService = accountService;
+            _accountService = accountservice;
+            _tokenService = tokenservice;
+            _configuration = configuration;
         }
-        
+
         public IActionResult Register()
         {
             return View();
@@ -26,6 +34,42 @@ namespace SoftWizECommerce.Controllers
         public IActionResult Login()
         {
             return View();
+        }
+
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public IActionResult Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                {
+                    return Json(new { flag = false, message = "Both email and password is required" });
+                }
+
+                var user = _accountService.GetUser(model.Email, model.Password);
+
+                if (user != null)
+                {
+                    var generatedToken = _tokenService.BuildToken(
+                        _configuration["Jwt:Key"].ToString(),
+                        _configuration["Jwt:Issuer"].ToString(),
+                        _configuration["Jwt:Audience"].ToString(),
+                        user);
+
+                    if (generatedToken != null)
+                    {
+                        HttpContext.Session.SetString("Token", generatedToken);
+                        return Json(new { flag = true, type = "redirect", message = "/Home/Index" });
+                    }
+                    else
+                    {
+                        return Json(new { flag = false, message = "Some error has occurred, please contact the administrator" });
+                    }
+                }
+            }
+
+            return Json(new { flag = false, message = "Wrong email/password" });
         }
 
         [AcceptVerbs("GET", "POST")]
@@ -54,6 +98,12 @@ namespace SoftWizECommerce.Controllers
             }
 
             return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
         }
     }
 }

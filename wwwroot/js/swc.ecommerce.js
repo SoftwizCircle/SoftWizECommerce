@@ -7,17 +7,32 @@ var SWC = (function () {
         $(form).find('input:checkbox').prop('checked', false);
     }
 
-    var fnFormFailure = function (response) {
+    var fnFormOnFailure = function (response) {
         toastr.error('Error occured.', 'Error')
     };
 
     var fnFormOnSuccess = function (response) {
-        toastr.success(response, 'Success');
-        clearform($(this));
+        switch (response.flag) {
+
+            case true:
+                switch (response.type) {
+                    case 'redirect':
+                        window.location = response.message;
+                        break;
+                    default:
+                        toastr.success(response.message, 'Success', { timeOut: 5000 });
+                        clearform($(this));
+                }
+
+                break;
+            case false:
+                toastr.warning(response.message, 'Error');
+                break;
+        }
     };
 
     return {
-        fnFormFailure: fnFormFailure,
+        fnFormOnFailure: fnFormOnFailure,
         fnFormOnSuccess: fnFormOnSuccess
     }
 })();
