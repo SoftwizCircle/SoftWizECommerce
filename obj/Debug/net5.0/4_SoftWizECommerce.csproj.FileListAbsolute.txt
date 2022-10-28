@@ -1,12 +1,3 @@
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.csproj.AssemblyReference.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.GeneratedMSBuildEditorConfig.editorconfig
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.AssemblyInfoInputs.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.AssemblyInfo.cs
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.csproj.CoreCompileInputs.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.MvcApplicationPartsAssemblyInfo.cs
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.MvcApplicationPartsAssemblyInfo.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.RazorAssemblyInfo.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.RazorAssemblyInfo.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizBusinessLogic.deps.json
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizBusinessLogic.runtimeconfig.json
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizBusinessLogic.runtimeconfig.dev.json
@@ -152,6 +143,15 @@ C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizHelpers.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizBusinessLogic.pdb
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizHelpers.pdb
 C:\TFS\SoftwizGit\SoftWizECommerce\bin\Debug\net5.0\SoftWizDataAccess.pdb
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.csproj.AssemblyReference.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.AssemblyInfoInputs.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.AssemblyInfo.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.csproj.CoreCompileInputs.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.MvcApplicationPartsAssemblyInfo.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.RazorAssemblyInfo.cache
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.RazorAssemblyInfo.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\staticwebassets\SoftWizECommerce.StaticWebAssets.Manifest.cache
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\staticwebassets\SoftWizECommerce.StaticWebAssets.xml
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\scopedcss\bundle\SoftWizECommerce.styles.css
@@ -164,6 +164,7 @@ C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.c
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -180,4 +181,3 @@ C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\ref\SoftWizECommerce.dll
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\SoftWizECommerce.pdb
 C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\4_SoftWizECommerce.genruntimeconfig.cache
-C:\TFS\SoftwizGit\SoftWizECommerce\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs

@@ -8,11 +8,11 @@ var SWC = (function () {
     }
 
     var fnFormFailure = function (response) {
-        alert("Error occured.");
+        toastr.error('Error occured.', 'Error')
     };
 
     var fnFormOnSuccess = function (response) {
-        alert(response);
+        toastr.success(response, 'Success');
         clearform($(this));
     };
 
