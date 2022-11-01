@@ -17,7 +17,7 @@
 
     <!-- Css Styles -->
     <environment include="Development">
-        <link rel="stylesheet" href="~/css/softwiz.min.css" type="text/css">
+        <link rel="stylesheet" asp-append-version="true" href="~/css/softwiz.min.css" type="text/css">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="~/css/softwiz.min.css" type="text/css">
@@ -221,7 +221,7 @@
     <!-- Js Plugins -->
 
     <environment include="Development">
-        <script src="~/js/softwiz.min.js"></script>
+        <script asp-append-version="true" src="~/js/softwiz.min.js"></script>
     </environment>
     
     @RenderSection("Scripts", required: false)

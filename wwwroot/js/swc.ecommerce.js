@@ -8,6 +8,7 @@ var SWC = (function () {
     }
 
     var fnFormOnFailure = function (response) {
+        alert('test');
         toastr.error('Error occured.', 'Error')
     };
 
